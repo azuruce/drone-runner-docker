@@ -2,6 +2,8 @@ module github.com/drone-runners/drone-runner-docker
 
 go 1.12
 
+replace github.com/drone/runner-go => github.com/azuruce/runner-go v1.3.1-0.20191118020600-08856f71e601
+
 require (
 	docker.io/go-docker v1.0.0
 	github.com/Microsoft/go-winio v0.4.11 // indirect
